@@ -1,8 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/landing_page/plantilla9/'
-})
+  base: "/landingpages/bramin/",
+  // base: '/landing_page/plantilla9/'
+});
