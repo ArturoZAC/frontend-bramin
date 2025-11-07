@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from "react";
 // import Logo from "../../assets/logo1.png";
-import Logo from "../../assets/logo/LOGOTIPO - INGENIERÍA & PROYECTOS BRAMIN-04.png";
+// import Logo from "../../assets/logo/LOGOTIPO - INGENIERÍA & PROYECTOS BRAMIN-04.png";
+import Logo from "../../assets/logo/logo-color-bramin.png";
 import Container from "../features/Container";
 import { AnimatePresence, motion } from "motion/react";
 import { BiMenu, BiX, BiPhone, BiEnvelope, BiTime, BiMapPin, BiUser, BiChat } from "react-icons/bi";

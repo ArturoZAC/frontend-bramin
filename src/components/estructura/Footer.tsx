@@ -1,6 +1,7 @@
 import Container from "../features/Container";
 // import LogoFooter from "../../assets/logoFooter.webp";
-import LogoFooter from "../../assets/logo/LOGOTIPO - INGENIERÍA & PROYECTOS BRAMIN-06.png";
+// import LogoFooter from "../../assets/logo/LOGOTIPO - INGENIERÍA & PROYECTOS BRAMIN-06.png";
+import LogoFooter from "../../assets/logo/logo-blanco-bramin.png";
 import { FaExternalLinkAlt, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 import { BiMapPin, BiPhone } from "react-icons/bi";
