@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 // import Logo from "../../assets/logo1.png";
 // import Logo from "../../assets/logo/LOGOTIPO - INGENIERÍA & PROYECTOS BRAMIN-04.png";
 import Logo from "../../assets/logo/logo-color-bramin.png";
+import LogoWhite from "../../assets/logo/logo-blanco-bramin.png";
 import Container from "../features/Container";
 import { AnimatePresence, motion } from "motion/react";
 import { BiMenu, BiX, BiPhone, BiEnvelope, BiTime, BiMapPin, BiUser, BiChat } from "react-icons/bi";
@@ -158,7 +159,7 @@ export default function HeaderV0() {
           {/* Logo */}
           <motion.div whileHover={{ scale: 1.05 }} className="flex items-center gap-3">
             <img
-              src={Logo || "/placeholder.svg"}
+              src={isTop ? Logo : LogoWhite}
               alt="logo"
               // className="w-20 lg:w-24"
               className="w-40 h-auto"
