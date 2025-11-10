@@ -1,6 +1,7 @@
 import { useEffect, useState, type SetStateAction } from "react";
 import { GrFormNext, GrFormPrevious } from "react-icons/gr";
-import Banner1 from "../../assets/banner/banner01-bramin.webp";
+// import Banner1 from "../../assets/banner/banner01-bramin.webp";
+import Banner1 from "../../assets/banner/terceraimagen-bramin.webp";
 import Banner2 from "../../assets/banner/banner02-bramin.webp";
 import Banner3 from "../../assets/banner/banner03-bramin.webp";
 // import Banner4 from "../../assets/banner/banner4.webp";
@@ -80,7 +81,7 @@ export default function SwiperBanner() {
             <div className="flex items-center justify-center h-full relative z-10">
               <div className="text-center text-white px-8 max-w-4xl">
                 <h1
-                  className={`text-4xl md:text-6xl lg:text-7xl font-bold text-secondary mb-6 transition-all duration-1200 delay-300 ${
+                  className={`text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 transition-all duration-1200 delay-300 ${
                     index === currentSlide ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
                   }`}
                 >
