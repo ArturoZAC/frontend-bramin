@@ -63,7 +63,7 @@ export default function ContactoSection() {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">Email</p>
-                    <p className="text-gray-600">contacto@empresa.com</p>
+                    <p className="text-gray-600">brayan.narvaez@bramin.pe</p>
                   </div>
                 </div>
 

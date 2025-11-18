@@ -27,7 +27,7 @@ export default function Footer() {
   ];
 
   const contactoInfo = {
-    email: "contacto@empresa.com",
+    email: "brayan.narvaez@bramin.pe",
     telefono: "+51 948 339 595",
     direccion: "Calle Mercaderes - Arequipa - Perú",
   };

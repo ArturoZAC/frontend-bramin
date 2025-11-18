@@ -60,7 +60,7 @@ export default function HeaderV0() {
 
   const contactInfo = {
     phone: "+51 948 339 595",
-    email: "info@empresa.com",
+    email: "brayan.narvaez@bramin.pe",
     address: "Calle Mercaderes - Arequipa - Perú",
     hours: "Lun-Vie: 9:00-18:00",
   };
